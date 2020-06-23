@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CUCKOO Products | EhsanEmpire</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="External.css">
+</head>
+
+<body>
+<table>
+
+<div class="header">
+  <h1><img src="logo3.png" alt="cuckoo" style="width:20%">  Products
+           <img src="logo1.jpg" alt="cuckoo" style="width:5%; float:right">
+  </h1>
+  <p><marquee width="100%" direction="left" height="20px" style="color:black;font-family:arial"><b>
+     	" CUCKOO BEYOND STANDARD :  WATER PURIFIER    |    AIR PURIFIER    |    MULTI-COOKER    |    INDUCTION COOKER    |    WONDERLAB (new)    |    HOMECARE (new) "</b>
+        </marquee></p>
+</div>
+
+<div class="topnav">
+  <a href="Index.html">HOME</a>
+  <a href="2Product.html">PRODUCTS</a>
+  <a href="https://store.cuckoo.com.my/estore/IHSANEmpireStore/"><b style="color:yellow">BUY PRODUCTS</b></a>
+  <a href="3Payment.html">PAYMENTS</a>
+  <a href="4Promotion.html">PROMOTION</a>
+  <a href="6Career.html">CAREER</a>
+  <a href="5Contact.html" style="float:right">CONTACT US</a>
+</div>
+
+
+
+<div class="topnav1">
+    <img src="prod.png" style="width:100%; height:300px" title="promo">
+   
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openProducts(event, 'Water')">Water Purifier</button>
+  <button class="tablinks" onclick="openProducts(event, 'Air')">Air Purifier</button>
+  <button class="tablinks" onclick="openProducts(event, 'Kitchen')">Kitchen</button>
+  <button class="tablinks" onclick="openProducts(event, 'Multi')">Multi Cookers</button>
+</div>
+
+<div id="Water" class="tabcontent">
+<div class="card1">
+ 
+	Prime X1<a href="primeDetail.JPG"><img src=prime.jpg height="200" width="150"></a>
+     	Fusion Top<a href="fusiontopDetail.JPG"><img src=fusion.jpg height="200" width="150"></a>
+     	Iris<a href="irisdetail.jpg"><img src=iris.jpg height="170" width="130"></a>
+     	King Stand<a href="kingstanddetail.jpg"><img src=kingstand.jpg height="170" width="150"></a>
+     	<br>
+     	King Top<a href="kingtopdetail.jpg"><img src=kingtop.jpg height="180" width="150"></a>
+     	Marvel<a href="marveldetail.jpg"><img src=marvel.jpg height="170" width="150"></a>
+     	Prince Top<a href="princedetail.jpg"><img src=prince.jpg height="170" width="150"></a>
+     	Queen Stand<a href="queendetail.jpg"><img src=queen.jpg height="200" width="150"></a>
+    	<br>
+    	Icon<a href="icondetail.jpg"><img src=icon.jpg height="200" width="150"></a>
+     	Vivid<a href="vividdetail.jpg"><img src=vivid.jpg height="170" width="150"></a>	
+     	Xcel<a href="exceldetail.jpg"><img src=excel.jpg height="170" width="150"></a>		
+</div>
+</div>
+
+<div id="Air" class="tabcontent">
+<div class="card1">
+     	B-Model Cordless<a href="bmodeldetail.jpg"><img src=bmodel.jpg height="300" width="200"></a>
+     	C-Model<a href="cmodeldetail.jpg"><img src=cmodel.jpg height="200" width="150"></a>
+     	<br>
+     	C-Model Humidify<a href="c+modeldetail.jpg"><img src=c+model.jpg height="300" width="200"></a>
+     	D-Model<a href="dmodeldetail.jpg"><img src=dmodel.jpg height="250" width="150"></a>
+</div>
+</div>
+
+<div id="Kitchen" class="tabcontent">
+<div class="card1">
+	Kyndell Cookware 5 PCS<a href="kyndellsa51detail.jpg"><img src=kyndellsa51.jpg height="200" width="150"></a>
+	Kyndell Cookware 2 PCS<a href="kyndellCPS-SE21detail.jpg"><img src=kyndellCPS-SE21.jpg height="200" width="150"></a>
+	<br>
+	Hybrid Induction Range (Inductrio)<a href="intriodetail.jpg"><img src=intrio.jpg height="200" width="150"></a>
+	<br>
+	HYBRID INDUCTION RANGE (INDUCTRIO) - PLUS 80<a href="inductriodetail.jpg"><img src=inductrio.jpg height="200" width="150"></a>
+	<br>
+	HYBRID INDUCTION RANGE (INDUCTWO)<a href="inductwodetail.jpg"><img src=inductwo.jpg height="200" width="150"></a>
+	<br>
+	HYBRID INDUCTION RANGE (INDUCTWO) - PLUS 80<a href="inductwoplusdetail.jpg"><img src=inductwoplus.jpg height="200" width="150"></a>
+	<br>
+	Stand Case 087<a href="casedetail.jpg"><img src=case.jpg height="200" width="150"></a>
+</div>
+</div>
+
+<div id="Multi" class="tabcontent">
+<div class="card1">
+  	BLACK HN10 (IH PRESSURE MULTI-COOKER)<a href="HN10detail.jpg"><img src=HN10.jpg height="200" width="150"></a>
+	<br>
+	CH10 Pressure Multicooker<a href="CH10detail.jpg"><img src=CH10.jpg height="200" width="150"></a>
+	<br>
+	JHT10 (TWIN-PRESSURE IH RICE COOKER)<a href="JHT10detail.jpg"><img src=JHT10.jpg height="200" width="150"></a>
+	<br>
+	P10 RICE COOKER<a href="P1012Fdetail.jpg"><img src=P1012F.jpg height="200" width="150"></a>
+	<br>
+	Q10 Rice Cooker<a href="Q10detail.jpg"><img src=Q10.jpg height="200" width="150"></a>
+</div>
+</div>
+
+
+
+<script>
+function openProducts(evt, productsName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(productsName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+<div class="footer">
+  <p>Copyright © 2020 Cuckoo Products Supplier All Rights Reserved | Website by IhsanEmpire (Cuckoo Authorized Dealer)</p>
+</div>
+
+
+</table>
+</body>
+</html>
